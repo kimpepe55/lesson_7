@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #424551;
+}
+
+.container {
+    padding: 15px;
+    max-width: 840px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 118px;
+}
+
+.title {
+    color: #1E212C;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 1.3;
+    margin-bottom: 92px;
+}
+
+.container img {
+    margin-bottom: 60px;
+    max-width: 100%;
+}
+
+.text1, .text2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #1E212C;
+}
+
+.text1 {
+    margin-bottom: 24px;
+}
+
+.paragraph1 {
+    margin-bottom: 40px;
+}
+
+.paragraph2 {
+    margin-bottom: 48px;
+}
+
+.text2 {
+    padding-left: 58px;
+    margin-bottom: 48px;
+}
+
+.paragraph3 {
+    margin-bottom: 24px;
+}
+
+.list {
+    padding-left: 32px;
+    margin-bottom: 24px;
+}
+
+.paragraph4 {
+    margin-bottom: 60px;
+}
+
+/* ================================================================ */
+
+.practice {
+    margin-bottom: 200px;
+}
+
+.practice__block1 {
+    margin: 0 auto 200px;
+    max-width: 600px;
+    text-align: justify;
+    padding: 15px;
+
+    background-image: url(../img/bg1.jpg);
+    background-position: center;
+
+    color: #fff;
+}
+
+.practice__block2 {
+    max-width: 900px;
+    max-height: 200px;
+    margin: 0 auto 100px;
+    text-align: justify;
+    padding: 15px;
+
+    background-image: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+    color: #fff;
+
+    overflow: scroll;
+}
+
+.practice__block3 {
+    padding: 15px;
+    text-align: center;
+
+    letter-spacing: 5px;
+    line-height: 2;
+
+    background: url(../img/bg3.jpg) fixed center no-repeat;
+    background-size: 100% 300px;
+}
